@@ -71,7 +71,7 @@ Se encontrará en la pestaña **Overview**, dé click en **Add** > **Github**, l
  - Deje los demás campos por defecto.
  - Dé click en **Create Integration**.
 
-Ya queda configurado el repositorio, ahora se debe agregar el _Delivery Pipeline_, nuevamente dé click en **Add** > **Delivery Pipeline**, llené los siguientes campos:
+Ya queda configurado el repositorio, ahora se debe agregar el _Delivery Pipeline_, nuevamente dé click en **Add** > **Delivery Pipeline**, llene los siguientes campos:
   - **Pipeline name**: Un nombre para su _Pipeline_.
   - **Pipeline type**: Seleccione _Tekton_.
  - Dé click en **Create Integration**.
