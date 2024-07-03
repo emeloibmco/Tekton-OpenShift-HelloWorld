@@ -92,7 +92,7 @@ Dé click sobre la integración del _Delivery Pipeline_. Llene los apartados de 
    - `clusterRegion`: La región de su cluster de Kubernetes, por defecto "us-south".
    - `registryNamespace`: El _namespace_ del registro de contenedores de IBM cloude donde se construirá y se almacenará la imagen a crear, use "tekton-handson".
    - `registryRegion`: La región del registro de contenedores de IBM Cloud, por defecto "us-south".
-   - `repository` El repositorio de Github de los recursos.
+   - `repository` El repositorio de Github de los recursos.(ej:	https://github.com/emeloibmco/Tekton-OpenShift-HelloWorld.git)
    - `revision`: La rama de los recursos del repositorio, por defecto "master".
   
 ### Agregar Trigger
