@@ -91,6 +91,7 @@ Dé click sobre la integración del _Delivery Pipeline_. Llene los apartados de 
    - `clusterNamespace`: El nombre del poryecto que se creará en Kubernetes, use el siguiente formato \<su-nombre>-ns.
    - `clusterRegion`: La región de su cluster de Kubernetes, por defecto "us-south".
    - `registryNamespace`: El _namespace_ del registro de contenedores de IBM cloude donde se construirá y se almacenará la imagen a crear, use "tekton-handson".
+     </br>
     `nota`: En caso de no tener un namespace, debe ser creado desde el cli de ibmcloud procurando usar el mismo grupo de recursos y region usados anteriormente
    ```
    ibmcloud cr namespace-add <my_namespace> -g <resource-group>
