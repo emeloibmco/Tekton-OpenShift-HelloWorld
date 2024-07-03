@@ -92,9 +92,9 @@ Dé click sobre la integración del _Delivery Pipeline_. Llene los apartados de 
    - `clusterRegion`: La región de su cluster de Kubernetes, por defecto "us-south".
    - `registryNamespace`: El _namespace_ del registro de contenedores de IBM cloude donde se construirá y se almacenará la imagen a crear, use "tekton-handson".
      </br>
-    `nota`: En caso de no tener un namespace, debe ser creado desde el cli de ibmcloud procurando usar el mismo grupo de recursos y region usados anteriormente
+    `nota`: En caso de no tener un namespace, debe ser creado desde el cli de ibmcloud procurando usar el mismo grupo de recursos y región usados anteriormente.
    ```
-   ibmcloud cr namespace-add <my_namespace> -g <resource-group>
+   ibmcloud cr namespace-add <namespace-name> -g <resource-group>
    ```
    - `registryRegion`: La región del registro de contenedores de IBM Cloud, por defecto "us-south".
    - `repository` El repositorio de Github de los recursos.(ej:	https://github.com/emeloibmco/Tekton-OpenShift-HelloWorld.git)
