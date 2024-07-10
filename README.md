@@ -104,6 +104,12 @@ Dé click sobre la integración del _Delivery Pipeline_. Llene los apartados de 
 
 Arriba a la izquierda dé click sobre el nombre del _Pipeline_ para volver al apartado del _Delivery Pipeline_, encontrará una ventana de _triggers_ vacía, dé click en **Add** > **Manual**, en el parámetro **Trigger name** agregue un nombre para su _trigger_ y deje el resto de parámetros por defecto y dé click en **Add**.
 
+### Agregar Trigger de repositorio de git (opcional)
+
+Arriba a la izquierda dé click sobre el nombre del _Pipeline_ para volver al apartado del _Delivery Pipeline_, encontrará una ventana de _triggers_ vacía, dé click en **Add** > **Repositroio de git**, en el parámetro **Trigger name** agregue un nombre para su _trigger_ y deje el resto de parámetros por defecto y dé click en **Add**.
+![image](https://github.com/emeloibmco/Tekton-OpenShift-HelloWorld/assets/61880457/a0eb4740-066e-460c-ae94-ed234f0d5452)
+
+
 ### Ejecutar el Delivery Pipeline
 Se encontrará nuevamente en el apartado de su _Delivery Pipeline_ con el _trigger_ configurado, dé click en **Run** > **Run**, se ejecutará el Pipeline, este proceso toma aproximadamente 3 minutos.
 
